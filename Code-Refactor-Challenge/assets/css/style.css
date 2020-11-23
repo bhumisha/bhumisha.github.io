@@ -3,19 +3,19 @@
     padding: 0;
     margin: 0;
 }
-
+/* BODY css applied to whole body of page */
 body {
     background-color: #d9dcd6;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* header css */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* header level 1 CSS */
 h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,7 +24,7 @@ h1 {
 .seo {
     color: #d9dcd6;
 }
-
+/* Navigation and its anchor tag CSS */
 .navMenu {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,7 +41,7 @@ nav > a {
 p {
     font-size: 16px;
 }
-
+/* banner CSS */
 .banner {
     height: 800px;
     width: 100%;
@@ -60,13 +60,29 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Body Content - Articles CSS  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+.content-detail{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;   
+    background-color: #0072bb;
+    color: #ffffff;
+}
 
+.content-detail img {
+    max-height: 200px;
+}
+
+.content-detail h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Right panel CSS  */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -93,23 +109,8 @@ aside {
     max-width: 150px;
 }
 
-.content-detail{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;   
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.content-detail img {
-    max-height: 200px;
-}
-
-.content-detail h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer CSS  */
 footer {
     padding: 30px;
     clear: both;
